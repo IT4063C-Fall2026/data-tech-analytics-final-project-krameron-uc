@@ -1,0 +1,53 @@
+What Makes a Song Successful?
+
+Project Overview
+
+Topic
+
+I want to investigate what factors are associated with the success of a song. Songs have different characteristics such as genre, tempo, danceability, energy, loudness, and duration. I want to analyze whether these characteristics are related to how successful a song becomes.
+
+This topic is important because artists, producers, and people in the music industry can benefit from understanding patterns associated with successful songs. This project will use data to investigate relationships between song characteristics and different measures of success.
+
+### Project Questions
+
+1. How does a song's popularity relate to its danceability?
+2. How does a song's popularity relate to its energy level?
+3. How does tempo (BPM) relate to a song's popularity?
+4. How does music genre relate to average song popularity?
+5. Are songs that perform well on the Billboard Hot 100 also highly popular on Spotify?
+
+What Would an Answer Look Like?
+
+For the relationship between danceability and popularity, I could use a scatter plot with danceability on the x-axis and popularity on the y-axis.
+
+For the relationship between energy and popularity, I could use a scatter plot with energy on the x-axis and popularity on the y-axis.
+
+For the relationship between tempo and popularity, I could use a scatter plot with BPM on the x-axis and popularity on the y-axis.
+
+For the relationship between genre and popularity, I could use a bar chart showing the average popularity of songs in each genre.
+
+For the relationship between Billboard performance and Spotify popularity, I could use a scatter plot comparing Billboard peak position with Spotify popularity.
+
+### Data Sources
+
+1. **Spotify Tracks Dataset** — A CSV dataset containing approximately 114,000 Spotify tracks across different genres. It contains information such as popularity, danceability, energy, loudness, tempo, duration, genre, artist, and track name.
+
+2. **Billboard Hot 100 Dataset** — A dataset containing historical Billboard Hot 100 information, including song title, artist, chart rank, peak position, and weeks on the chart.
+
+3. **Spotify Web API** — An API that provides song and artist information, including Spotify track metadata and popularity information.
+
+### How the Data Sources Can Be Related
+
+The Spotify and Billboard datasets can potentially be related using the song title and artist name. The Spotify dataset uses track name and artist information, while the Billboard dataset contains song title and artist information. These variables can be used to match songs between the datasets. Release date or year can also be used to help distinguish songs with similar names.
+
+The Spotify Web API can provide additional information about songs using Spotify track identifiers and metadata. This information can be used to supplement or validate information from the downloaded Spotify dataset.
+
+The goal of combining the datasets is to compare song characteristics with different measures of success, including Spotify popularity and Billboard chart performance.
+
+Data sets and web API:
+
+https://www.kaggle.com/datasets/saichaitanyareddyai/spotify-tracks-dataset-audio-features/data?utm_source=chatgpt.com
+
+https://www.kaggle.com/datasets/ludmin/billboard?utm_source=chatgpt.com
+
+https://developer.spotify.com/documentation/web-api/reference/get-track?utm_source=chatgpt.com

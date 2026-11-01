@@ -1,7 +1,11 @@
 # Final-Project-Template
-<!-- Edit the title above with your project title -->
+What makes a song successful?
 
 ## Project Overview
+
+I want to investigate what factors are associated with the success of a song. Songs have different characteristics such as genre, tempo, danceability, energy, loudness, and duration. I want to analyze whether these characteristics are related to how successful a song becomes.
+
+This topic is important because artists, producers, and people in the music industry can benefit from understanding patterns associated with successful songs. This project will use data to investigate relationships between song characteristics and different measures of success.
 
 ## Self Assessment and Reflection
 
